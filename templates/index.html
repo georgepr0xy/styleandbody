@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="https://via.placeholder.com/60x60?text=B" alt="Brand Logo">
+      </header>
+    
+      <div class="container">
+        <div class="cards">
+          <div class="card">
+            <img src="https://fashionedits.com/wp-content/uploads/2023/04/Gender-neutral-.png" alt="Clothing Style">
+            <h3>Styling</h3>
+            <p>Glow up with our beauty insights.</p>
+            <a class="card-btn" href="{{ url_for('chat', chat_type='body') }}">Get Started</a>
+          </div>
+          <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.HlnGudB9KUsH63LgM78f_QHaEk?w=277&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" alt="Skincare"/>
+            <h3>Skincare</h3>
+            <p>Discover what works for your skin.</p>
+            <a class="card-btn" href="{{ url_for('chat', chat_type='skin') }}">Get Started</a>
+
+          </div>
+        </div>
+      </div>
+    
+      <footer>
+        <p>“Beauty begins the moment you decide to be yourself.”</p>
+      </footer>
+    
+    </body>
+    </html>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
